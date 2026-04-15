@@ -1,0 +1,9 @@
+# Git history — not needed inside container
+.git
+.gitignore
+# Environment files — NEVER bake secrets into an image
+.env
+.env.local
+.env.production
+# Log files
+*.log
