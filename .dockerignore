@@ -1,10 +1,6 @@
-# Git history — not needed inside container
+# .dockerignore
+README.md
 .git
 .gitignore
-# Environment files — NEVER bake secrets into an image
-.env
-.env.local
-.env.production
-# Log files
+*.md
 *.log
-README.md
