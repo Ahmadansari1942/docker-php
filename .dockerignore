@@ -7,3 +7,4 @@
 .env.production
 # Log files
 *.log
+README.md
